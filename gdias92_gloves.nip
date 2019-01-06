@@ -1,0 +1,96 @@
+//==========================================
+//===========       unique       ===========
+//==========================================
+
+//dracul's grasp
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [strength] == 15
+
+// steelrend
+[name] == ogregauntlets && [quality] == unique && [flag] != ethereal # [enhanceddamage] == 60 && [strength] == 20 && [defense] == 281
+
+// lava gout
+//[name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 200
+
+// bloodfist
+[name] == heavygloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20
+[name] == sharkskingloves && [quality] == unique # [enhanceddefense] == 20 // && [defense] == 56
+[name] == vampirebonegloves && [quality] == unique # [enhanceddefense] == 20 && [defense] == 88
+
+// chance guard
+[name] == chaingloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 30 && [itemmagicbonus] == 40
+
+// magefist
+[name] == lightgauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 30 // magefist
+[name] == battlegauntlets && [quality] == unique # [enhanceddefense] == 30 && [defense] == 71 // magefist x1
+[name] == crusadergauntlets && [quality] == unique # [enhanceddefense] == 30 && [defense] == 98 // magefist x2
+
+// frostburn
+//[name] == gauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 20 # [maxquantity] == 1
+
+//==========================================
+//===========       crafted      ===========
+//==========================================
+
+// ias str dex
+[type] == gloves && [quality] == crafted # [ias] >= 20 && [strength]+[dexterity] >= 15
+
+// skiller  ias str / dex
+[type] == gloves && [quality] == crafted # [itemaddskilltab] >= 2 && [ias] >= 20 && ([strength] >= 6 || [dexterity] >= 6)
+
+// skiller ias str dex
+[type] == gloves && [quality] == crafted # [itemaddskilltab] >= 2 && [ias] >= 20 && [strength]+[dexterity] >= 15
+
+// cb ias str dex
+[type] == gloves && [quality] == crafted # [itemcrushingblow] >= 5 && [ias] >= 20 && ([strength] >= 10 || [dexterity] >= 10)
+
+// cb str dex
+[type] == gloves && [quality] == crafted # [itemcrushingblow] >= 5 && [strength]+[dexterity] >= 15
+
+[type] == gloves && [quality] == crafted # [javelinandspearskilltab] == 2 && ([lifeleech] >= 3 || [manaleech] >= 3 ) && [itemcrushingblow] >= 10 && ([strength] >= 15 || [dexterity] >= 15) //
+
+[type] == gloves && [quality] == crafted # [javelinandspearskilltab] == 2 && ([lifeleech] >= 3 || [manaleech] >= 3 ) && [strength] >= 15 && [dexterity] >= 15 //
+
+[type] == gloves && [quality] == crafted # [javelinandspearskilltab] == 2 && [ias] == 20 && ([lifeleech] >= 3 || [manaleech] >= 3 || [strength] >= 15 || [dexterity] >= 15 || [itemcrushingblow] >= 10 || [itemknockback] >= 1)
+
+[type] == gloves && [quality] == crafted # [bowandcrossbowskilltab] == 2 && [ias] == 20 && ([lifeleech] >= 3 || [manaleech] >= 3 || [strength] >= 15 || [dexterity] >= 15 || [itemcrushingblow] >= 10 || [itemknockback] >= 1)
+
+[type] == gloves && [quality] == crafted # [passiveandmagicskilltab] == 2 && [ias] == 20 && ([lifeleech] >= 3 || [manaleech] >= 3 || [strength] >= 15 || [dexterity] >= 15 || [itemcrushingblow] >= 10 || [itemknockback] >= 1)
+
+[type] == gloves && [quality] == crafted # [ias] == 20 && [strength]+[dexterity] >= 25
+
+[type] == gloves && [quality] == crafted # [ias] == 20 && [strength] >= 15 && ([enhanceddefense] >= 80 || [maxhp] >= 20 || [lifeleech] >= 6 || [manaleech] >= 3 || [itemcrushingblow] >= 10 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 25)
+
+[type] == gloves && [quality] == crafted # [ias] == 20 && [dexterity] >= 15 && ([enhanceddefense] >= 80 || [maxhp] >= 20 || [lifeleech] >= 6 || [manaleech] >= 3 || [itemcrushingblow] >= 10 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 25)
+
+[type] == gloves && [quality] == crafted # [ias] >= 10 && [strength]+[dexterity] >= 30
+
+[type] == gloves && [quality] == crafted # [ias] == 20 && [strength] >= 15 && ([enhanceddefense] >= 80 || [maxhp] >= 20 || [lifeleech] >= 6 || [manaleech] >= 3 || [itemcrushingblow] >= 10 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 25)
+
+[type] == gloves && [quality] == crafted # [ias] == 20 && [dexterity] >= 15 && ([enhanceddefense] >= 80 || [maxhp] >= 20 || [lifeleech] >= 6 || [manaleech] >= 3 || [itemcrushingblow] >= 10 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 25)
+
+[type] == gloves && [quality] == crafted # [ias] >= 10 && [strength]+[dexterity] >= 25 && [maxhp] >= 15
+
+[type] == gloves && [quality] == crafted # [strength]+[dexterity] >= 30 && ([lifeleech] >= 6 || [lifeleech] >= 3 && [manaleech] >= 3) && [itemcrushingblow] >= 10
+
+[type] == gloves && [quality] == crafted # [ias] == 20 && ([strength] >= 15 || [dexterity] >= 15 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 30) && [itemknockback] >= 1
+
+
+//==========================================
+//===========        rare        ===========
+//==========================================
+
+// ias str dex
+[type] == gloves && [quality] == rare && [flag] != ethereal # [ias] == 20 && [strength]+[dexterity] >= 30
+
+// amazon ias dex
+[type] == gloves && [quality] == rare && [flag] != ethereal # [ias] == 20 && [javelinandspearskilltab]+[passiveandmagicskilltab] >= 2 && ([strength] == 15  || [dexterity] == 15)
+
+// ias ethbug
+[type] == gloves && [quality] == rare && [flag] == ethereal # [ias] == 20 && [enhanceddefense] >= 175 && ([itemreplenishdurability] > 0 || [itemreplenishquantity] > 0)
+
+//==========================================
+//===========        magic       ===========
+//==========================================
+
+// 3 java 20 ias gloves
+//[type] == gloves && [quality] == magic && [flag] != ethereal # [ias] == 20 && [javelinandspearskilltab] == 3

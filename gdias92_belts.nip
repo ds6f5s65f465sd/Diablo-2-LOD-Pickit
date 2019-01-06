@@ -1,0 +1,67 @@
+//==========================================
+//===========       unique       ===========
+//==========================================
+
+// arachnid mesh
+[name] == spiderwebsash && [quality] == unique && [flag] != ethereal
+
+// nosferatu's coil
+//[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # [lifeleech] == 7 && [defense] == 63
+
+// verdungo's hearty cord
+[name] == mithrilcoil && [quality] == unique && [flag] != ethereal// # [damageresist] == 15 //&& [vitality] == 40
+
+// string of ears
+[name] == demonhidesash && [quality] == unique && [flag] != ethereal # [damageresist] == 15 && [lifeleech] == 8 && [enhanceddefense] == 180 && [magicdamagereduction] == 15
+
+// snowclash
+//[name] == battlebelt  && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 170
+
+// thundergod's vigor
+[name] == warbelt && [quality] == unique && [flag] != ethereal
+
+// goldwrap
+[name] == heavybelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [itemgoldbonus] == 80
+[name] == battlebelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60
+[name] == trollbelt && [quality] == unique && [flag] != ethereal # [enhanceddefense] == 60 && [defense] == 130
+
+//==========================================
+//===========       crafted      ===========
+//==========================================
+
+// hp str
+[type] == belt && [quality] == crafted # [maxhp] >= 50 && [strength] >= 15
+
+// ow str life res
+[type] == belt && [quality] == crafted # [itemopenwounds] >= 5 && [fhr] >= 17 && [strength] >= 10 && [maxhp] >= 30 && ([fireresist] + [lightresist] + [coldresist]) >= 10
+
+// high res
+[type] == belt && [quality] == crafted # [strength] >= 10 && [maxhp] >= 30 && ([fireresist] + [lightresist] + [coldresist]) >= 50
+
+// fhr fcr
+[type] == belt && [quality] == crafted # [fhr] >= 17 && [fcr] >= 10
+
+[type] == belt && [quality] == crafted # ([maxhp] >= 40 || [strength] >= 20) && [itemgoldbonus] >= 80 && ([lifeleech] >= 3 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+
+[type] == belt && [quality] == crafted # [fhr] >= 24 && [strength] >= 20 && [maxhp] >= 40
+
+[type] == belt && [quality] == crafted # [itemopenwounds] >= 10 && ([maxhp] >= 40 || [strength] >= 20 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 30) && [itemgoldbonus] >= 80
+
+[type] == belt && [quality] == crafted # [itemopenwounds] >= 10 && ([maxhp] >= 40 || [strength] >= 20) && [fhr] >= 17
+
+[type] == belt && [quality] == crafted # [fcr] >= 10 && ([maxhp] >= 40 || [strength] >= 20 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 30) && ([fhr] >= 24 || [itemgoldbonus] >= 80)
+
+
+
+//==========================================
+//===========        rare        ===========
+//==========================================
+
+// fhr str hp
+[type] == belt && [quality] == rare && [flag] != ethereal # [fhr] == 24 && [strength] >= 20 && [maxhp] >= 50
+
+// fhr hp gf
+[type] == belt && [quality] == rare && [flag] != ethereal # [fhr] == 24 && [strength] >= 10 && [maxhp] >= 30 && [itemgoldbonus] >= 70
+
+// fhr hp ethbug
+[type] == belt && [quality] == rare && [flag] == ethereal # ([fhr] == 24 || [maxhp] >= 50) && [enhanceddefense] >= 150 && ([itemreplenishdurability] > 0 || [itemreplenishquantity] > 0)

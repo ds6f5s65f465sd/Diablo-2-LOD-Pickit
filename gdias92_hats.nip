@@ -1,0 +1,161 @@
+//==========================================
+//===========       unique       ===========
+//==========================================
+
+// rockstopper
+//[name] == sallet && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210
+
+// crown of thieves
+[name] == grandcrown && [quality] == unique && [flag] != ethereal # [itemgoldbonus] >= 100 && [enhanceddefense] >= 200 && [lifeleech] >= 12
+
+// eth crown of thieves
+[name] == grandcrown && [quality] == unique && [flag] == ethereal # [itemgoldbonus] >= 100
+
+// vampiregaze
+[name] == grimhelm && [quality] == unique && [flag] == ethereal # [lifeleech] == 8 && [manaleech] == 8 && [magicdamagereduction] == 15 && [damageresist] >= 20
+
+// harlequin crest
+[name] == shako && [quality] == unique && [flag] != ethereal
+
+// nightwing's veil
+[name] == spiredhelm && [quality] == unique # [passivecoldmastery] == 15
+
+// andarial's visage
+[name] == demonhead && [quality] == unique && [flag] != ethereal # [strength] == 30
+
+// eth andarial's visage
+[name] == demonhead && [quality] == unique && [flag] == ethereal
+
+// crown of ages
+[name] == corona && [quality] == unique
+
+// giant skull
+//[name] == bonevisage && [quality] == unique # [sockets] == 2 && [strength] == 35
+
+// kira's guardian
+[name] == tiara && [quality] == unique # [fireresist] == 70
+
+// griffon's eye
+[name] == diadem && [quality] == unique
+
+// arreat's face
+[name] == slayerguard && [quality] == unique # [enhanceddefense] >= 200
+[name] == guardiancrown && [quality] == unique # [defense] == 504 || [defense] == 756
+
+// eth arreat's face
+[name] == slayerguard && [quality] == unique && [flag] == ethereal
+
+// wolfhowl
+[name] == furyvisor && [quality] == unique && [flag] != ethereal # [warcriesskilltab] == 3 && [skillwerewolf]+[skilllycanthropy]+[skillferalrage] == 18 && [strength]+[dexterity]+[vitality] >= 45
+
+// jalal's mane
+[name] == totemicmask && [quality] == unique # [enhanceddefense] == 200
+[name] == bloodspirit && [quality] == unique && [flag] == identified # [defense] == 477 || [defense] == 714
+
+// cerebus' bite
+[name] == bloodspirit && [quality] == unique # [enhanceddefense] == 140 && [itemtohitpercent] == 120 && [shapeshiftingskilltab] == 4 && [skillferalrage] == 2 && [lifeleech] == 10
+
+//==========================================
+//===========       crafted      ===========
+//==========================================
+
+[type] == helm && [quality] == crafted # [itemtohitpercentperlevel] >= 1 && [sockets] == 2 && [maxhp] >= 30 && ([enhanceddefense] >= 100 || [fhr] == 10 || [itempoisonlengthresist] == 25 || [palicombatskilltab] == 2 || [itemdeadlystrike] >= 9)
+
+[type] == helm && [quality] == crafted # [itemtohitpercentperlevel] >= 1 && [sockets] == 2 && [fhr] == 10 && ([enhanceddefense] >= 100 || [itempoisonlengthresist] == 25 || [palicombatskilltab] == 2 || [itemdeadlystrike] >= 9)
+
+[type] == helm && [quality] == crafted # [itemtohitpercentperlevel] >= 1 && [sockets] == 2 && [enhanceddefense] >= 100 && ([itempoisonlengthresist] == 25 || [palicombatskilltab] == 2 || [itemdeadlystrike] >= 9)
+
+[type] == helm && [quality] == crafted # [itemtohitpercentperlevel] >= 1 && [sockets] == 2 && [itempoisonlengthresist] == 25 && ([palicombatskilltab] == 2 || [itemdeadlystrike] >= 9)
+
+[type] == helm && [quality] == crafted # [itemtohitpercentperlevel] >= 1 && [sockets] == 2 && [palicombatskilltab] == 2 && [itemdeadlystrike] >= 9
+
+//==========================================
+//===========        rare        ===========
+//==========================================
+
+// visionary 2soc ed
+[type] == helm && [quality] == rare # [itemtohitpercentperlevel] >= 1 && [sockets] == 2 && [enhanceddefense] >= 150
+
+// eth visionary
+[type] == helm && [quality] == rare && [flag] == ethereal # [itemtohitpercentperlevel] >= 1 && [enhanceddefense] >= 100 && ([itemreplenishdurability] > 0 || [itemreplenishquantity] > 0 || [sockets] == 2)
+
+// skiller fcr frw 2soc
+[type] == circlet && [quality] == rare # [necromancerskills]+[druidskills]+[paladinskills]+[sorceressskills]+[assassinskills] == 2 && [fcr] == 20 && [frw] == 30 && [sockets] == 2
+
+// skiller fcr mp/hp str/dex res 2soc
+[type] == circlet && [quality] == rare # [sorceressskills]+[necromancerskills]+[paladinskills]+[assassinskills] == 2 && [fcr] == 20 && ([maxhp] >= 30 || [maxmana] >= 60) && ([strength]+[dexterity] >= 20 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
+
+// skillers +stats
+[type] == circlet && [quality] == rare # [amazonskills] == 2 && [frw] == 30 && ([strength]+[dexterity] >= 25 || [sockets] == 2 || [maxhp]+[maxmana] >= 50)
+[type] == circlet && [quality] == rare # [druidskills] == 2 && [itemtohitpercentperlevel] >= 1 && [frw] == 30 && ([strength]+[dexterity] >= 25 || [maxhp]+[maxmana] >= 50)
+[type] == circlet && [quality] == rare # [paladinskills] == 2 && [itemtohitpercentperlevel] >= 1 && [strength]+[dexterity] >= 25 && ([sockets] == 2 || [maxhp] >= 30)
+[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [fcr] == 20 && ([strength]+[dexterity] >= 25 || [maxhp]+[maxmana] >= 50) && ([fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [sockets] == 2)
+
+// gf barb
+[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [itemgoldbonus] >= 80 && [sockets] == 2
+
+// 5bo
+([name] == assaulthelmet || [name] == avengerguard || [name] == savagehelmet || [name] == slayerguard || [name] == conquerorcrown || [name] == guardiancrown) && [quality] == rare # [barbarianskills]+[skillbattleorders] >= 5
+
+// 5bo 2soc
+[type] == primalhelm && [quality] == rare # [barbarianskills] >= 2 && [itemtohitpercentperlevel] >= 1 && ([enhanceddefense] >= 100 || [sockets] == 2 || [skillbattleorders] == 3)
+
+// visionary mod barbhat
+([name] == assaulthelmet || [name] == avengerguard || [name] == savagehelmet || [name] == slayerguard || [name] == conquerorcrown || [name] == guardiancrown) && [quality] == rare && [color] == white
+
+// visionary mod antlers (unid)
+([name] == antlers || [name] == hunter'sguise || [name] == earthspirit) && [quality] == rare && [color] == white
+
+// 5nado
+[type] == pelt && [quality] == rare # [druidskills]+[skilltornado] >= 5
+
+// summoner druid
+[type] == pelt && [quality] == rare # [druidskills]+[skillarmageddon]+[skillsummongrizzly] >= 8
+
+// clawdruid visionary
+[type] == pelt && [quality] == rare # [druidskills]+[skillfury] >= 5 && [itemtohitpercentperlevel] >= 1
+
+
+//==========================================
+//===========        magic       ===========
+//==========================================
+
+// visionary with hp or fhr
+[type] == helm && [quality] == magic && [class] == elite # [itemtohitpercentperlevel] >= 1 && ([fhr] == 10 || [maxhp] >= 30)
+
+// 3soc frw/str/dex/mf/hp/fcr/dr
+[type] == circlet && [quality] == magic && [flag] != ethereal # [sockets] == 3 && ([frw] == 30 || [strength] == 30 || [dexterity] == 30 || [itemmagicbonus] == 35 || [maxhp] == 100 || [fcr] == 20 || [normaldamagereduction] == 25)
+
+// 2zon 30frw
+[type] == circlet && [quality] == magic && [flag] != ethereal # [amazonskills] == 2 && [frw] == 30
+
+// 2skiller fcr
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && ([sorceressskills]+[necromancerskills]+[paladinskills]+[assassinskills] == 2)
+
+// 3skiller fcr
+[type] == circlet && [quality] == magic && [flag] != ethereal # [fcr] == 20 && ([fireskilltab] == 3 || [coldskilltab] == 3 || [lightningskilltab] == 3)
+
+// str shadow/light skiller
+[type] == circlet && [quality] == magic && [flag] != ethereal # [strength] >= 15 && ([shadowdisciplinesskilltab] == 3 || [lightningskilltab] == 3)
+
+// skiller dr
+[type] == circlet && [quality] == magic && [flag] != ethereal # ([paladinskills] == 2 || [palicombatskilltab] == 3 || [sorceressskills] == 2 || [lightningskilltab] == 3 || [maxmana] == 120) && [normaldamagereduction] == 25
+
+// gf barb
+[type] == circlet && [quality] == magic # [barbarianskills] == 2 && [itemgoldbonus] >= 80
+
+// 6nado
+[type] == pelt && [quality] == magic # [druidskills]+[skilltornado] == 5 || [elementalskilltab]+[skilltornado] == 6
+
+// summoner druid
+[type] == pelt && [quality] == magic # ([druidskills] == 2 || [elementalskilltab] == 3) && [skillarmageddon]+[skillsummongrizzly] >= 6
+
+//==========================================
+//===========        white       ===========
+//==========================================
+
+([name] == demonhead || [name] == bonevisage || [name] == diadem) && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && [sockets] == 3
+
+//([name] == demonhead || [name] == bonevisage) && [quality] == normal && [flag] == ethereal # [sockets] == 0
+
+([name] == assaulthelmet || [name] == avengerguard || [name] == savagehelmet || [name] == slayerguard || [name] == conquerorcrown || [name] == guardiancrown) && [quality] == magic # [barbarianskills]+[skillbattleorders] >= 5 || [warcriesskilltab]+[skillbattleorders] >= 6

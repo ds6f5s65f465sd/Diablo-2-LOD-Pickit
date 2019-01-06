@@ -1,0 +1,68 @@
+//==========================================
+//===========       unique       ===========
+//==========================================
+
+// stone of jordan
+[type] == ring && [quality] == unique # [itemmaxmanapercent] == 25
+
+// bul-kathos' wedding band
+[type] == ring && [quality] == unique # [maxstamina] == 50 && [lifeleech] >= 3
+
+// nagelring
+[type] == ring && [quality] == unique # [itemmagicbonus] == 30
+
+// wisp projector
+[type] == ring && [quality] == unique # [itemabsorblightpercent] >= 20 || [itemmagicbonus] >= 20 && [itemabsorblightpercent] >= 10
+
+// raven frost
+[type] == ring && [quality] == unique # [dexterity] == 20
+
+// dwarf star
+//[type] == ring && [quality] == unique # [maxhp] == 40 && [magicdamagereduction] == 15
+
+//==========================================
+//===========       crafted      ===========
+//==========================================
+
+// +stat +life
+[type] == ring && [quality] == crafted # [strength]+[dexterity] >= 25 && [maxhp] >= 30
+
+// +stat ( more lenient )
+[type] == ring && [quality] == crafted # [strength]+[dexterity] >= 25
+
+// fcr +stat
+[type] == ring && [quality] == crafted # [fcr] >= 10 && ([maxhp] >= 40 || [maxhp]+[maxmana] >= 80 || [strength]+[dexterity] >= 25)
+
+// fcr +stat ( more lenient )
+[type] == ring && [quality] == crafted # [fcr] >= 10 && ([strength] >= 10 || [dexterity] >= 10 || [maxhp] >= 30)
+
+// fcr +mf (mf hammers)
+[type] == ring && [quality] == crafted # [fcr] >= 10 && [itemmagicbonus] >= 1
+
+// mf
+[type] == ring && [quality] == crafted # [itemmagicbonus] >= 25 && ([maxmana] >= 90 || [maxhp] >= 40 || [strength] >= 20 || [dexterity] >= 15 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+
+
+//==========================================
+//===========        rare        ===========
+//==========================================
+
+// bvc
+[type] == ring && [quality] == rare # [fcr] == 10 && [tohit] >= 90 && [maxhp] >= 30 && [maxmana] >= 60
+
+// dual stat melee rings
+[type] == ring && [quality] == rare # [tohit] >= 100 && [strength]+[dexterity] >= 30
+
+// fcr +stat
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 20 || [strength]+[dexterity] >= 15 && ([maxhp] >= 30 || [maxmana] >= 60) || [maxhp] >= 30 && [maxmana] >= 60)
+
+// fcr +stat +res ( good for hammers )
+[type] == ring && [quality] == rare # [fcr] == 10 && [dexterity] >= 12 && [maxhp] >= 30 && ([fireresist] >= 20 || [lightresist] >= 20 || [fireresist] >= 9 && [lightresist] >= 9)
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 20 || [dexterity] >= 15 || [strength]+[dexterity] >= 20) && ([fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20)
+
+//==========================================
+//===========        magic       ===========
+//==========================================
+
+// max mf
+[type] == ring && [quality] == magic # [itemmagicbonus] == 40
